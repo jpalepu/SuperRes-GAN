@@ -6,7 +6,7 @@ I reimplement of [Photo-Realistic Single Image Super-Resolution Using a Generati
 The network is trained on 5000 image samples for 1 epoch on Google colab
 
 ## Result
-In the following table, the psnr value in `()` indicates the result of the project
+In the following table is my result of model
 
 | STL10 | Scale |      SRResNet      |       SRGAN        |
 |:----: |:-----:|:------------------:|:------------------:|
