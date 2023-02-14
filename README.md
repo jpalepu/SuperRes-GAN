@@ -17,19 +17,27 @@ with the goal of fooling a differentiable discriminator D with following structu
 that is trained to distinguish super-resolved images from real images.
 To achieve this, we propose a perceptual loss function which consists of an adversarial loss and a content loss.
 
-![image width="783"](https://user-images.githubusercontent.com/50286429/218705342-d7062804-50b9-4fe5-a22c-a1ca602374d2.png)
+<p align="center">
+ ![image width="783"](https://user-images.githubusercontent.com/50286429/218705342-d7062804-50b9-4fe5-a22c-a1ca602374d2.png)
+</p>
 
 
 
 The adversarial loss pushes our solution to the natural image manifold using a discriminator network that is trained to differentiate between the super-resolved images and original photo-realistic images.
+<p align="center">
 ![image](https://user-images.githubusercontent.com/50286429/218705557-3d6aac46-5a3b-4b11-95fa-85e31164d3a5.png)
+</p>
 
 In addition, we use a VGG content loss motivated by perceptual similarity instead of similarity in pixel space.
+<p align="center">
 ![image](https://user-images.githubusercontent.com/50286429/218706873-ec46ed92-5b6a-4dfc-ad18-7c5109123a3a.png)
+</p>
 
 
 All in all, they trained their model for estimating optimal parameters to minimize the loss function they provied, which is
+<p align="center">
 ![image](https://user-images.githubusercontent.com/50286429/218706661-45c85a26-d489-4d1d-8aad-ca37a6ec28dd.png)
+</p>
 
 ## Instructions
 We re-implement the method proposed in this paper using two different frameworks，they are:
