@@ -52,7 +52,7 @@ All in all, they trained their model for estimating optimal parameters to minimi
 ## Instructions
 We re-implement the method proposed in this paper using two different frameworks，they are:
 1. Tensorflow which can be found on going to SRGAN-Tensorflow
-2. Pytorch which can be found on going to SRGAN-Pytorch 
+2. Pytorch which can be found on going to SRGAN-PyTorch 
 
 
 
