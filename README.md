@@ -1,4 +1,12 @@
-# Single Image Super Resolution using GANs:
+# Single Image Super Resolution using GANs
+## Credit
+[Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://arxiv.org/abs/1609.04802)
+Christian Ledig, Lucas Theis, Ferenc Huszar, Jose Caballero, Andrew Cunningham, Alejandro Acosta, Andrew Aitken, Alykhan Tejani, Johannes Totz, Zehan Wang, Wenzhe Shi
+
+
+Re-implement by:
+ - Weihao Wang(1988339)
+ - jithin kumar palepu(1988599)
 ## Bcakgroud
 Despite the breakthroughs in accuracy and speed of single image super-resolution using faster and deeper convolutional neural networks, one central problem remains largely unsolved: **how do we recover the finer texture details when we super-resolve at large upscaling factors?**
 ## Proposed Method
@@ -9,11 +17,24 @@ with the goal of fooling a differentiable discriminator D with following structu
 that is trained to distinguish super-resolved images from real images.
 To achieve this, we propose a perceptual loss function which consists of an adversarial loss and a content loss.
 
-$$\mathcal{L} &= \mathcal{L}_{VGG} + 10^{-3}\mathcal{L}_{ADV}$$
+![image width="783"](https://user-images.githubusercontent.com/50286429/218705342-d7062804-50b9-4fe5-a22c-a1ca602374d2.png)
+
 
 
 The adversarial loss pushes our solution to the natural image manifold using a discriminator network that is trained to differentiate between the super-resolved images and original photo-realistic images.
-In addition, we use a content loss motivated by perceptual similarity instead of similarity in pixel space.
+![image](https://user-images.githubusercontent.com/50286429/218705557-3d6aac46-5a3b-4b11-95fa-85e31164d3a5.png)
+
+In addition, we use a VGG content loss motivated by perceptual similarity instead of similarity in pixel space.
+![image](https://user-images.githubusercontent.com/50286429/218706873-ec46ed92-5b6a-4dfc-ad18-7c5109123a3a.png)
+
+
+All in all, they trained their model for estimating optimal parameters to minimize the loss function they provied, which is
+![image](https://user-images.githubusercontent.com/50286429/218706661-45c85a26-d489-4d1d-8aad-ca37a6ec28dd.png)
+
+
+
+
+
 
 
 
