@@ -6,24 +6,12 @@ In this notebook, I re-implement the architecture of  Super-Resolution GAN (SRGA
 In this project I choosed [STL10 Dataset](https://cs.stanford.edu/~acoates/stl10/)  as training and testing Dataset.  Both of networks(Generator network and Discriminator network) are trained on 5000 image samples for 1 epoch on Google colab online computing unit (Sorry for the hardware limitation). Following is a sample result：
 
 
-|#|语法|效果|
+|#|images|description|
 |---|---|----
-|1|`![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
-|2|`![][code-past]`|![][code-past]
-
-**input(lr)**
-![image](https://user-images.githubusercontent.com/50286429/218882335-4cfeff6a-740d-4082-a296-e0b902a90493.png)
-
-**output(SRresnet)**
-![image](https://user-images.githubusercontent.com/50286429/218882345-83ab601e-f261-4676-84be-cb57a5fa1b45.png)
-
-**output(SRgan)**
-![image](https://user-images.githubusercontent.com/50286429/218882362-8e7da44d-b330-40b5-9abe-e18ffb11634f.png)
-
-**original(hr)**
-![image](https://user-images.githubusercontent.com/50286429/218882380-163fbe85-67de-4243-abcd-d1bcaa35ba2b.png)
-
-
+|1| ![image](https://user-images.githubusercontent.com/50286429/218882335-4cfeff6a-740d-4082-a296-e0b902a90493.png)| **input(lr)**|
+|2| ![image](https://user-images.githubusercontent.com/50286429/218882345-83ab601e-f261-4676-84be-cb57a5fa1b45.png)| **output(SRResnt)**|
+|3| ![image](https://user-images.githubusercontent.com/50286429/218882362-8e7da44d-b330-40b5-9abe-e18ffb11634f.png)| **output(SRGAN)**|
+|4| ![image](https://user-images.githubusercontent.com/50286429/218882380-163fbe85-67de-4243-abcd-d1bcaa35ba2b.png)| **original(hr)**|
 
 
 
@@ -32,7 +20,8 @@ In this project I choosed [STL10 Dataset](https://cs.stanford.edu/~acoates/stl10
 
 
 ## Result
-In the following table is my result of model
+Because of hardware limitations, I did not train the model parameters to the optimal. However, from the current results, metrics may be better by increasing the training times.
+In the following table is benchmarks metrics of my model
 
 | STL10 | Scale |      SRResNet      |       SRGAN        |
 |:----: |:-----:|:------------------:|:------------------:|
