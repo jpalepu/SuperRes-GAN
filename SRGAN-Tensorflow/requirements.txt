@@ -3,3 +3,4 @@ pillow
 numpy
 keras
 matplotlib
+scikit-image
