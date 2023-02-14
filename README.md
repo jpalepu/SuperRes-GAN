@@ -31,6 +31,8 @@ In addition, we use a VGG content loss motivated by perceptual similarity instea
 All in all, they trained their model for estimating optimal parameters to minimize the loss function they provied, which is
 ![image](https://user-images.githubusercontent.com/50286429/218706661-45c85a26-d489-4d1d-8aad-ca37a6ec28dd.png)
 
+## Instructions
+We re-implement the method proposed in this paper using two different frameworks，they are:
 
 
 
