@@ -27,3 +27,10 @@ In the following table is benchmarks metrics of my model
 |:----: |:-----:|:------------------:|:------------------:|
 | PSNR  |   4   |  70.0636  |  70.6417  |
 | SSIM  |   4   | 0.8246 | 0.8348 |
+
+
+## Instructions
+To run my project, first uploading [srgenerator.pt](./srresnet.pt) and [srresnet.pt](/.srresnet.pt) to your Google drive. Then run [SuperResGAN.ipynb](./SuperResGAN.ipynb) as nootbook. If you want to run notebook with my pre-trained model, please skip the 'Training' part when executing.
+
+
+
