@@ -7,7 +7,7 @@ Christian Ledig, Lucas Theis, Ferenc Huszar, Jose Caballero, Andrew Cunningham, 
 Re-implement by:
  - Weihao Wang(1988339)
  - jithin kumar palepu(1988599)
-## Bcakgroud
+## Backgroud
 Despite the breakthroughs in accuracy and speed of single image super-resolution using faster and deeper convolutional neural networks, one central problem remains largely unsolved: **how do we recover the finer texture details when we super-resolve at large upscaling factors?**
 ## Proposed Method
 In this paper, authors presented SRGAN, a generative adversarial network (GAN) for image superresolution (SR).It allows one to train a generative model G wich is
@@ -58,32 +58,6 @@ We re-implement the method proposed in this paper using two different frameworks
 
 
 
-# SuperRes-GAN with Tensorflow:
-Implementation of SRGAN to convert single image lower resolution into an upscaled version with features being preserved. 
-
-Dataset used (for tensorflow implementation): 
-MIRFLICKR-25000 (can be downlaoded from https://press.liacs.nl/mirflickr/mirdownload.html) 
-
-Details about implementation (using tensorflow): 
-
-The input file is 25x25 (the downlscaled version) 
-The generated file by the generator is 4x Upscalled version (100 x 100)
-
-The network is trained on 3000 image samples for 20 epochs on apple sillicon CPU
-
-Here are some Outputs:
-<img width="783" alt="Screenshot 2023-02-13 at 20 16 25" src="https://user-images.githubusercontent.com/44967770/218552918-71e60a93-4e04-4440-9e7c-614600c34ada.png">
-
-The implementation is strictly based on the attached paper. 
-libraries used:
-
-1.keras
-2.tensorflow
-3.PIL
-
-Instructions on running the program with terminal:
-1. goto the program location (sggan.py)
-2. execute python srgran.py
 
 
 
