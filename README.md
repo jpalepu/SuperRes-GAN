@@ -56,12 +56,18 @@ The network is trained on 3000 image samples for 20 epochs on apple sillicon CPU
 Here are some Outputs:
 <img width="783" alt="Screenshot 2023-02-13 at 20 16 25" src="https://user-images.githubusercontent.com/44967770/218552918-71e60a93-4e04-4440-9e7c-614600c34ada.png">
 
-The implementation is strictly based on the attached paper, and the architechture of generator is:
+The implementation is strictly based on the attached paper. 
+libraries used:
 
- 
+1.keras
+2.tensorflow
+3.PIL
 
-Discriminator: 
-<img width="1114" alt="Screenshot 2023-02-13 at 20 25 13" src="https://user-images.githubusercontent.com/44967770/218554648-f87805db-9720-44d7-b37e-2ac423645bf7.png">
+Instructions on running the program with terminal:
+1. goto the program location (sggan.py)
+2. execute python srgran.py
 
-Further details are explained in the markdowns cells of the implementation. 
+
+
+
 
