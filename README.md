@@ -1,4 +1,21 @@
 # Single Image Super Resolution using GANs:
+## Bcakgroud
+Despite the breakthroughs in accuracy and speed of single image super-resolution using faster and deeper convolutional neural networks, one central problem remains largely unsolved: **how do we recover the finer texture details when we super-resolve at large upscaling factors?**
+## Proposed Method
+In this paper, authors presented SRGAN, a generative adversarial network (GAN) for image superresolution (SR).It allows one to train a generative model G wich is
+<img width="783" alt="Screenshot 2023-02-13 at 20 16 25" src="https://github.com/https-deeplearning-ai/GANs-Public/blob/master/SRGAN-Generator.png?raw=true">
+with the goal of fooling a differentiable discriminator D with following structure
+<img width="783" alt="Screenshot 2023-02-13 at 20 16 25" src="https://github.com/https-deeplearning-ai/GANs-Public/blob/master/SRGAN-Discriminator.png?raw=true">
+that is trained to distinguish super-resolved images from real images.
+To achieve this, we propose a perceptual loss function which consists of an adversarial loss and a content loss.
+
+$$\mathcal{L} &= \mathcal{L}_{VGG} + 10^{-3}\mathcal{L}_{ADV}$$
+
+
+The adversarial loss pushes our solution to the natural image manifold using a discriminator network that is trained to differentiate between the super-resolved images and original photo-realistic images.
+In addition, we use a content loss motivated by perceptual similarity instead of similarity in pixel space.
+
+
 
 # SuperRes-GAN with Tensorflow:
 Implementation of SRGAN to convert single image lower resolution into an upscaled version with features being preserved. 
