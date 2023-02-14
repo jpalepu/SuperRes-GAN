@@ -21,7 +21,7 @@ In this project I choosed [STL10 Dataset](https://cs.stanford.edu/~acoates/stl10
 
 ## Result
 Because of hardware limitations, I did not train the model parameters to the optimal. However, from the current results, metrics may be better by increasing the training times.
-In the following table is benchmarks metrics of my model
+In the following table is benchmarks metrics of my model:
 
 | STL10 | Scale |      SRResNet      |       SRGAN        |
 |:----: |:-----:|:------------------:|:------------------:|
