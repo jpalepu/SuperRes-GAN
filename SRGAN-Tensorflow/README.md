@@ -1,4 +1,5 @@
-# SuperRes-GAN with Tensorflow:
+## SuperRes-GAN with Tensorflow:
+
 Implementation of SRGAN to convert single image lower resolution into an upscaled version with features being preserved. 
 
 Dataset used (for tensorflow implementation): 
@@ -22,5 +23,13 @@ libraries used:
 3.PIL
 
 Instructions on running the program with terminal:
-1. goto the program location (sggan.py)
-2. execute python srgran.py
+1. Goto the program location (main.py)
+2. Execute the command: 
+```
+pip3 install -r requirements.txt
+```
+this will install all the necessary libraries used to run the program.
+3. then execute the command:
+```
+python srgran.py
+```
