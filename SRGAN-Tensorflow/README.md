@@ -15,6 +15,11 @@ The network is trained on 3000 image samples for 20 epochs on apple sillicon CPU
 Sample output:
 <img width="783" alt="Screenshot 2023-02-13 at 20 16 25" src="https://user-images.githubusercontent.com/44967770/218741183-369af1a8-db0a-4737-95e4-9efab9b59496.png">
 
+| Metrics | SRGAN|
+| :---         |     :---:      |
+| PSNR         |63.1921787      | 
+| SSIM         | 0.699          |
+
 The implementation is strictly based on the attached paper. 
 libraries used:
 
