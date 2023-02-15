@@ -32,5 +32,5 @@ pip3 install -r requirements.txt
 this will install all the necessary libraries used to run the program.
 3. then execute the command:
 ```
-python srgran.py
+python main.py
 ```
