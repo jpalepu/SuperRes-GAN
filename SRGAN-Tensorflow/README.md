@@ -21,11 +21,7 @@ Sample output:
 | SSIM         | 0.699          |0.75  |
 
 The implementation is strictly based on the attached paper. 
-libraries used:
-
-1.keras
-2.tensorflow
-3.PIL
+All the libraries to be installed are provided in requirements.txt
 
 Instructions on running the program with terminal:
 1. Goto the program location (main.py)
