@@ -8,10 +8,10 @@ In this project I choosed [STL10 Dataset](https://cs.stanford.edu/~acoates/stl10
 
 |#|images|description|
 |---|---|----
-|1| ![image](https://user-images.githubusercontent.com/50286429/218882335-4cfeff6a-740d-4082-a296-e0b902a90493.png)| **input(lr)**|
-|2| ![image](https://user-images.githubusercontent.com/50286429/218882345-83ab601e-f261-4676-84be-cb57a5fa1b45.png)| **output(SRResnt)**|
-|3| ![image](https://user-images.githubusercontent.com/50286429/218882362-8e7da44d-b330-40b5-9abe-e18ffb11634f.png)| **output(SRGAN)**|
-|4| ![image](https://user-images.githubusercontent.com/50286429/218882380-163fbe85-67de-4243-abcd-d1bcaa35ba2b.png)| **original(hr)**|
+|1| ![image](https://user-images.githubusercontent.com/50286429/218882335-4cfeff6a-740d-4082-a296-e0b902a90493.png)| **input(low-resolution image)**|
+|2| ![image](https://user-images.githubusercontent.com/50286429/218882345-83ab601e-f261-4676-84be-cb57a5fa1b45.png)| **output(SRResnt_MSE_loss)**|
+|3| ![image](https://user-images.githubusercontent.com/50286429/218882362-8e7da44d-b330-40b5-9abe-e18ffb11634f.png)| **output(SRGAN_Perceptual_loss)**|
+|4| ![image](https://user-images.githubusercontent.com/50286429/218882380-163fbe85-67de-4243-abcd-d1bcaa35ba2b.png)| **original(high-resolution image)**|
 
 
 
@@ -23,7 +23,7 @@ In this project I choosed [STL10 Dataset](https://cs.stanford.edu/~acoates/stl10
 Because of hardware limitations, I did not train the model parameters to the optimal. However, from the current results, metrics may be better by increasing the training times.
 In the following table is benchmarks metrics of my model:
 
-| STL10 | Scale |      SRResNet      |       SRGAN        |
+| STL10 | Scale |      SRResNet-MSE      |       SRGAN-Perceptual        |
 |:----: |:-----:|:------------------:|:------------------:|
 | PSNR  |   4   |  70.0636  |  70.6417  |
 | SSIM  |   4   | 0.8246 | 0.8348 |
