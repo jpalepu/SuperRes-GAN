@@ -13,7 +13,8 @@ The generated file by the generator is 4x Upscalled version (100 x 100)
 The network is trained on 3000 image samples for 20 epochs on apple sillicon CPU
 
 Sample output:
-<img width="783" alt="Screenshot 2023-02-13 at 20 16 25" src="https://user-images.githubusercontent.com/44967770/218741183-369af1a8-db0a-4737-95e4-9efab9b59496.png">
+<img width="739" alt="Screenshot 2023-02-16 at 10 55 23" src="https://user-images.githubusercontent.com/44967770/219331866-6f7c409d-ad17-41ee-8d8f-18c473b15cc0.png">
+
 
 | Metrics | SRGAN| From Paper |
 | :---         |     :---:      |:---: |
