@@ -8,7 +8,7 @@ Christian Ledig, Lucas Theis, Ferenc Huszar, Jose Caballero, Andrew Cunningham, 
 
 Re-implement by:
  - Weihao Wang(1988339)
- - jithin kumar palepu(1988599)
+ - jithin kumar palepu(2022405)
 ## Backgroud
 Despite the breakthroughs in accuracy and speed of single image super-resolution using faster and deeper convolutional neural networks, one central problem remains largely unsolved: **how do we recover the finer texture details when we super-resolve at large upscaling factors?**
 ## Proposed Method
